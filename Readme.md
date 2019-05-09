@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Masha Legostina](https://up.htmlacademy.ru/htmlcss/25/user/888827).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Палкин] (https://htmlacademy.ru/profile/id615813).
 
 ---
 
