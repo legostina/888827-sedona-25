@@ -42,7 +42,37 @@
 
     <section class="search-info">
       <a class="button" href="search-info.html">Поиск гостиниц в Седоне</a>
-      <!--Здесь будет форма-->
+
+      <form class="search-form" method="get" action="#">
+        <ul>
+          <li>
+            <label for="date">Дата заезда</label>
+            <input type="date" id="date">
+            <button type="button"></button>
+          </li>
+          <li>
+            <label for="date">Дата выезда</label>
+            <input type="date" id="date">
+            <button type="button"></button>
+          </li>
+          <li>
+            <label for="adults">Взрослые
+              <button type="button">-</button>
+              <input type="number" id="adults">
+              <button type="button">+</button>
+            </label>
+          </li>
+          <li>
+            <label for="children">Дети
+              <button type="button">-</button>
+              <input type="number" id="children">
+              <button type="button">+</button>
+            </label>
+          </li>
+        </ul>
+        <button type="submit">Найти</button>
+      </form>
+
     </section>
   </main>
 
