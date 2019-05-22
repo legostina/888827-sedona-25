@@ -9,17 +9,17 @@ body {
   text-transform: uppercase;
 
   background-color: white;
-  background-image: url("../img/background-photo.jpg");
   width: 1200px;
   height: 773px;
   background-position: top center;
   background-repeat: no-repeat;
 }
-.main-header-logo
-{
+
+.main-header-logo {
   margin: 0 auto;
-  
+
 }
+
 a {
   text-decoration: none;
 }
@@ -53,8 +53,20 @@ a {
   margin: 0 auto;
   width: 459px;
   height: 353px;
+  
 }
-.visually-hidden{
+.welcome {
+  background-image: url("../img/background-photo.jpg");
+  width: 1200px;
+  
+}
+.description {
+  background-color: white;
+  width: 1200px;
+  height: 216px;
+}
+
+.visually-hidden {
   color: white;
 }
 
@@ -89,40 +101,45 @@ a {
   text-align: center;
   color: var(--black);
 }
+
 .search-interest {
-    font-family: "PTSans-Bold";
-    font-size: 30px;
-    text-align: center;
-    line-height: 36px;
-    color: #000000;
+  font-family: "PTSans-Bold";
+  font-size: 30px;
+  text-align: center;
+  line-height: 36px;
+  color: #000000;
 }
+
 .search-data {
-    font-family: "PTSans-Regular";
-    font-size: 12px;
-    text-align: center;
-    line-height: 24px;
-    color:#333333;
+  font-family: "PTSans-Regular";
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  color: #333333;
 }
+
 .search {
-    background-color: white;
-    width: 1200px;
-    height: 216px;
-    background-position: center;
+  background-color: white;
+  width: 1200px;
+  height: 216px;
+  background-position: center;
 }
-.button  {
-    width: 289px;
-    height: 18px;
-    font-family: PTSans;
-    font-size: 21px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.24;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--white);
+
+.button {
+  width: 289px;
+  height: 18px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
 }
-.data-style{
+
+.data-style {
   font-family: PTSans;
   font-size: 14px;
   font-weight: bold;
@@ -147,8 +164,6 @@ a {
 }
 
 .search-button {
-  width: 65px;
-  height: 19px;
   font-family: PTSans;
   font-size: 21px;
   font-weight: bold;
@@ -157,9 +172,13 @@ a {
   line-height: 1.24;
   letter-spacing: normal;
   text-align: center;
-  color: var(--white);
+  width: 458px;
+  height: 58px;
   background-color: #81b3d2;
+  text-transform: uppercase;
+  color: white;
 }
+
 .hashtag {
   width: 136px;
   height: 16px;
@@ -173,11 +192,15 @@ a {
   text-align: center;
   color: var(--black-two);
 }
+
 .social-button {
-    width: 46px;
+  display: block;
+  width: 46px;
   height: 48px;
-  
+  background-color: #81b3d2;
+
 }
+
 .footer-list {
   list-style: none;
 }
@@ -195,6 +218,12 @@ a {
   text-align: center;
   color: var(--black-two);
 }
+
+.copyright {
+  width: 115px;
+  height: 41px;
+}
+
 .hostel-hostel {
   width: 210px;
   font-family: PTSans;
