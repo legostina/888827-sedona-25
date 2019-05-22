@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+
+  background-color: white;
+  background-image: url("../img/background-photo.jpg");
+  width: 1200px;
+  height: 773px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: white;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: white;
+}
+
+.search-list {
+  list-style: none;
+}
+
+.welcome-poster {
+  width: 459px;
+  height: 353px;
+}
+
+.description {
+  text-align: center;
+}
+
+.description-bold {
+  width: 440px;
+  height: 48px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black-two);
+}
+
+.description-regular {
+  width: 489px;
+  height: 13px;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.search-interest {
+    font-family: "PTSans-Bold";
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px;
+    color: #000000;
+}
+.search-data {
+    font-family: "PTSans-Regular";
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    color:#333333;
+}
+.search {
+    background-color: white;
+    width: 1200px;
+    height: 216px;
+    background-position: center;
+}
