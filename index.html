@@ -39,8 +39,8 @@
 
     <section class="search">
       <h2 class="visually-hidden">Поиск гостиниц в Седоне</h2>
-      <p>Заинтересовались?</p>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <p class="search-interest">Заинтересовались?</p>
+      <p class="search-data">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
     </section>
 
     <section class="search-info">
@@ -48,24 +48,24 @@
 
       <form class="search-form" method="get" action="#">
         <ul class="search-list">
-          <li>
+          <li class="arrival-style">
             <label for="date-arrival">Дата заезда</label>
             <input type="date" id="date-arrival">
             <button type="button"></button>
           </li>
-          <li>
+          <li class="departure-style">
             <label for="date-departure">Дата выезда</label>
             <input type="date" id="date-departure">
             <button type="button"></button>
           </li>
-          <li>
+          <li class="adults-style">
             <label for="adults">Взрослые
               <button type="button">-</button>
               <input type="number" id="adults">
               <button type="button">+</button>
             </label>
           </li>
-          <li>
+          <li class="children-style">
             <label for="children">Дети
               <button type="button">-</button>
               <input type="number" id="children">
@@ -73,7 +73,7 @@
             </label>
           </li>
         </ul>
-        <button type="submit">Найти</button>
+        <button class="search-button" type="submit">Найти</button>
       </form>
 
     </section>
