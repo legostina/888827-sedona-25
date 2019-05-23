@@ -19,7 +19,7 @@
         <li><a href="info.html">Информация</a></li>
         <li><a href="photovideo.html">Фото и видео</a></li>
         <li><a href="map.html">Карта штата</a></li>
-        <li><a href="hostel.html">Гостиницы</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
@@ -33,7 +33,7 @@
 
     <section class="description">
       <h2 class="visually-hidden">Описание Седоны</h2>
-      <p class="description-bold">Седона-небольшой городок в Аризоне, <br>заслуживающий большего!</p>
+      <p class="description-bold">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
       <p class="description-regular">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </section>
 
@@ -50,26 +50,29 @@
         <ul class="search-list">
           <li class="data-style">
             <label for="date-arrival">Дата заезда</label>
-            <input type="date" id="date-arrival">
-            <button type="button"></button>
+            <input class="date" type="date" id="date-arrival">
+            <a class="calendar" href="#">
+            <img src="img/calendar.svg"  alt="Календарь"></a>
+            
           </li>
           <li class="data-style">
             <label for="date-departure">Дата выезда</label>
-            <input type="date" id="date-departure">
-            <button type="button"></button>
+            <input class="date" type="date" id="date-departure">
+            <a class="calendar" href="#">
+              <img src="img/calendar.svg"  alt="Календарь"></a>
           </li>
           <li class="people-style">
             <label for="adults">Взрослые
-              <button type="button">-</button>
-              <input type="number" id="adults">
-              <button type="button">+</button>
+              <button class="minus" type="button">-</button>
+              <input class="number" type="number" id="adults">
+              <button class="plus" type="button">+</button>
             </label>
           </li>
           <li class="people-style">
             <label for="children">Дети
-              <button type="button">-</button>
-              <input type="number" id="children">
-              <button type="button">+</button>
+              <button class="minus" type="button">-</button>
+              <input class="number" type="number" id="children">
+              <button class="plus" type="button">+</button>
             </label>
           </li>
         </ul>
