@@ -274,6 +274,9 @@ a {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
+  fill: #ffffff;
+  margin: 0 auto;
+  
 }
 
 .social-button:hover,
