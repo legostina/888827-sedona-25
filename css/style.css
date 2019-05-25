@@ -183,8 +183,8 @@ a {
   fill: #a9a9a9;
 }
 
-.calendar svg:hover,
-.calendar svg:focus {
+.calendar:hover,
+.calendar:focus {
   fill: #000000;
 }
 
@@ -204,7 +204,7 @@ a {
   height: 58px;
   background-color: #81b3d2;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -276,14 +276,14 @@ a {
   background-color: #81b3d2;
 }
 
-.footer-element a:hover,
-.footer-element a:focus {
+.social-button:hover,
+.social-button:focus {
   background-color: #669ec0;
 }
 
-.footer-element a:active {
+.social-button:active {
   background-color: #5496bd;
-  color: rgba(255, 255, 255, 0.3);
+  fill: rgba(255, 255, 255, 0.3);
 }
 
 .footer-list {
