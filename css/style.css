@@ -86,7 +86,7 @@ a {
 
 .welcome {
   background-image: url("../img/polygon.svg"), url("../img/background-photo.jpg");
-  fill: #bdbbbc;
+  background-color: #bdbbbc;
   background-position: center bottom, center center;
   background-repeat: no-repeat;
   width: 1200px;
@@ -209,7 +209,7 @@ a {
 .search-form {
   background-color: rgba(0, 1, 1, 0.15);
   width: 568px;
-  height: 395px;
+  min-height: 395px;
   margin: 0 auto;
 }
 
@@ -618,9 +618,8 @@ li.people-style {
   padding-left: 21px;
 }
 
-.hotel-button {
+.hotel-buttons {
   display: flex;
-  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -669,7 +668,6 @@ ul.stars {
   list-style: none;
   align-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
   height: 17px;
