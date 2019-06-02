@@ -18,8 +18,25 @@ a {
   text-decoration: none;
 }
 
-.main-navigation {
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+.visually-hidden:not(:focus):not(:active){
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-navigation {
   height: 56px;
   font-size: 14px;
   line-height: 26px;
@@ -36,6 +53,27 @@ a {
   justify-content: center;
 }
 
+.main-info {
+  padding-left: 72px;
+  padding-right: 74px;
+}
+.main-photovideo {
+  padding-left: 73px;
+  padding-right: 68px;
+}
+.main-header-logo{
+  padding-left: 51px;
+  padding-right: 53px;
+}
+.main-map {
+  padding-left: 76px;
+  padding-right: 73px;
+}
+.main-catalog{
+  padding-left: 88px;
+  padding-right: 72px;
+}
+
 .site-navigation {
   display: flex;
   flex-direction: row;
@@ -45,7 +83,7 @@ a {
   margin: 0;
   list-style: none;
   min-width: 98px;
-  min-height: 12px;
+  height: 56px;
 }
 
 .site-navigation a {
@@ -87,23 +125,11 @@ a {
 .welcome {
   background-image: url("../img/polygon.svg"), url("../img/background-photo.jpg");
   background-color: #bdbbbc;
-  background-position: center bottom, center center;
+  background-position: center bottom, center 28%;
   background-repeat: no-repeat;
   width: 1200px;
   min-height: 501px;
   margin: auto;
-}
-
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .description {
@@ -243,19 +269,40 @@ li.date-departure {
 }
 
 li.data-style-arrival {
+  position: relative;
   padding-left: 55px;
   padding-top: 55px;
 }
 
 li.data-style-departure {
+  position: relative;
   padding-left: 55px;
   padding-top: 29px;
 }
 
-.date {
+.date-arrival,
+.date-departure {
   width: 346px;
   height: 38px;
   font-size: 14px;
+}
+.date-arrival {
+  margin-left: 21px;
+}
+.date-departure {
+  margin-left: 17px;
+}
+
+.calendar-arrival {
+  position: absolute;
+  top: 64px;
+  left: 480px;
+}
+
+.calendar-departure {
+  position: absolute;
+  top: 37px;
+  left: 480px;
 }
 
 .calendar {
@@ -395,7 +442,7 @@ li.people-style {
 }
 
 .footer-social {
-  margin-left: 256px;
+  margin-left: 290px;
   margin-right: 228px;
 }
 
@@ -509,6 +556,7 @@ li.people-style {
 .hotels-found-content {
   margin: 0;
   padding: 0;
+  height: 90px;
 }
 
 .hotel-description {
