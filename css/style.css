@@ -554,12 +554,12 @@ li.people-style {
 
 .hotels-list {
   display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 72px;
   padding-right: 72px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
+  }
 
 .hotels-found-content {
   margin: 0;
