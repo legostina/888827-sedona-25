@@ -4,10 +4,18 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 700;
+  font-weight: 400;
+  
   color: #000000;
   text-transform: uppercase;
   height: 773px;
+  
+  background-image: url( "../img/sedona-index.jpg" );
+  background-repeat: no-repeat;
+  background-position:  center 0;
+  background-repeat: no-repeat;
+  background-size:  1280px auto;
+  opacity: 0.6;
 }
 
 .main-header-logo {
@@ -129,10 +137,10 @@ img {
 .welcome {
   background-image: url("../img/polygon.svg"), url("../img/background-photo.jpg");
   background-color: #bdbbbc;
-  background-position: center bottom, center 28%;
+  background-position: center bottom, center 36%;
   background-repeat: no-repeat;
   width: 1200px;
-  min-height: 501px;
+  min-height: 506px;
   margin: auto;
 }
 
@@ -157,7 +165,7 @@ img {
 
 .description-regular {
   margin: auto;
-  padding-top: 38px;
+  padding-top: 32px;
   padding-bottom: 56px;
   width: 489px;
   font-size: 14px;
@@ -174,7 +182,7 @@ img {
 
 .search-interest {
   padding-top: 57px;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
   margin: 0 auto;
   font-weight: bold;
   font-size: 30px;
@@ -185,9 +193,9 @@ img {
 
 .search-data {
   margin: 0;
-  padding-bottom: 52px;
-  font-weight: regular;
-  font-size: 12px;
+  padding-bottom: 47px;
+  font-weight: bold;
+  font-size: 14px;
   text-align: center;
   line-height: 24px;
   color: #333333;
@@ -237,7 +245,7 @@ img {
 }
 
 .search-form {
-  background-color: rgba(0, 1, 1, 0.15);
+  color: rgba(0, 1, 1, 0.15);
   width: 568px;
   min-height: 395px;
   margin: 0 auto;
@@ -274,14 +282,14 @@ li.date-departure {
 
 li.data-style-arrival {
   position: relative;
-  padding-left: 55px;
-  padding-top: 55px;
+  padding-left: 56px;
+  padding-top: 53px;
 }
 
 li.data-style-departure {
   position: relative;
-  padding-left: 55px;
-  padding-top: 29px;
+  padding-left: 56px;
+  padding-top: 28px;
 }
 
 .date-arrival,
@@ -289,14 +297,15 @@ li.data-style-departure {
   width: 346px;
   height: 38px;
   font-size: 14px;
+  border: none;
 }
 
 .date-arrival {
-  margin-left: 21px;
+  margin-left: 19px;
 }
 
 .date-departure {
-  margin-left: 17px;
+  margin-left: 15px;
 }
 
 .calendar-arrival {
@@ -332,11 +341,11 @@ li.data-style-departure {
 li.people-style {
   display: flex;
   padding-top: 30px;
-  padding-left: 55px;
+  padding-left: 53px;
+  align-items: center;
 }
 
 .adults {
-  display: flex;
   padding-right: 41px;
 }
 
@@ -352,7 +361,7 @@ li.people-style {
   align-items: center;
   justify-content: center;
   margin-left: 55px;
-  margin-top: 54px;
+  margin-top: 53px;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -440,20 +449,21 @@ li.people-style {
   display: flex;
   margin: 0 auto;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 36px;
+  padding-top: 35px;
   padding-bottom: 36px;
 
 }
 
 .footer-social {
-  margin-left: 290px;
-  margin-right: 228px;
+  margin-left: 34px;
+  margin-top: -10px;
 }
 
 .footer-hashtag {
-  margin: 0;
+  margin-left: 132px;
+  margin-top: 11px;
   padding: 0;
 }
 
@@ -481,6 +491,7 @@ li.people-style {
   background-color: #81b3d2;
   fill: #ffffff;
   margin: 0 auto;
+  margin-right: 6px;
 
 }
 
@@ -500,7 +511,7 @@ li.people-style {
   padding: 0;
   list-style: none;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
 
 }
@@ -518,6 +529,8 @@ li.people-style {
   text-align: flex-end;
   color: #000000;
   align-items: center;
+  margin-right: 100px;
+  margin-top: -11px;
 }
 
 .author {
@@ -554,11 +567,12 @@ li.people-style {
 
 .hotels-list {
   display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 72px;
   padding-right: 72px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 29px;
   }
 
 .hotels-found-content {
@@ -571,6 +585,7 @@ li.people-style {
   flex-direction: column;
   flex-wrap: wrap;
   padding-left: 30px;
+  margin-top: -6px;
 }
 
 .hotel-name {
@@ -579,7 +594,7 @@ li.people-style {
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.24;
+  line-height: 26px;
   letter-spacing: normal;
   text-align: left;
   color: #000000;
@@ -653,6 +668,7 @@ li.people-style {
   list-style: none;
   flex-direction: row;
   align-content: center;
+  margin-top: -10px;
 }
 
 .price-amara,
@@ -666,6 +682,7 @@ li.people-style {
 .hotel-buttons {
   display: flex;
   margin: 0;
+  margin-top: -4px;
 }
 
 .hotel-booking {
@@ -702,8 +719,11 @@ li.people-style {
 .hotel-rating {
   display: flex;
   flex-direction: column;
-  margin: 0;
   margin-left: auto;
+  margin-bottom: -5px;
+}
+.star {
+  padding-left: 6px;
 }
 
 ul.stars {
