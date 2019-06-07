@@ -299,10 +299,15 @@ li.data-style-departure {
 
 .date-arrival,
 .date-departure {
-  width: 346px;
+  width: 333px;
   height: 38px;
   font-size: 14px;
+  font-weight: bold;
+  color: #000000;
   border: none;
+  padding-left: 13px;
+  line-height: 26px;
+  text-align: left;
 }
 
 .date-arrival {
@@ -425,6 +430,8 @@ li.people-style {
   padding: 0;
   width: 38px;
   height: 38px;
+  font-weight: bold;
+  text-align: center;
   color: #000000;
   background-color: #f2f2f2;
   border: none;
@@ -572,7 +579,6 @@ li.people-style {
 
 .hotels-list {
   display: flex;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 72px;
   padding-right: 72px;
