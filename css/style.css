@@ -150,8 +150,7 @@ img {
 .beautiful-canyon,
 .attraction-lists {
   display: flex;
-  flex-wrap: wrap;
-}
+ }
 
 .description {
   display: block;
@@ -364,13 +363,7 @@ img {
 }
 
 .search-info {
-  background-image: url("../img/map.jpg");
-  background-color: #bdbbbc;
-  background-position: center 36%;
-  background-repeat: no-repeat;
-  width: 1200px;
-  min-height: 593px;
-  margin: auto;
+  
 }
 
 .search-interest {
@@ -649,6 +642,16 @@ li.people-style {
 
 .plus:active {
   color: #81b3d2;
+}
+
+.map {
+  background-image: url("../img/map.jpg");
+  background-color: #bdbbbc;
+  background-position: center 36%;
+  background-repeat: no-repeat;
+  width: 1200px;
+  min-height: 593px;
+  margin: auto;
 }
 
 .main-footer {
