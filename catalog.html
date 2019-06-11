@@ -44,7 +44,8 @@
 
     <section class="cost">
       <p class="cost-day">СТРОИМОСТЬ В СУТКИ (Р):</p>
-
+      <span class="start">ОТ 0</span><span class="finish">ДО 3000</span>
+      <input class="range" type="range" min="0" max="3000" step="1" value="2500">
       <button class="show" type="submit">ПОКАЗАТЬ</button>
     </section>
     </div>
@@ -52,9 +53,16 @@
     <div class="results-search">
       <p class="found">НАЙДЕНО: 3</p>
       <ul class="sorting">
+        <p class="sorting-type">СОРТИРОВКА:</p>
         <li class="byprice">ПО ЦЕНЕ</li>
         <li class="bytype">ПО ТИПУ</li>
         <li class="byrating">ПО РЕЙТИНГУ</li>
+        <li class="triangle-up"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+          <path d="M5.5 0L0 10h11z"/>
+      </svg></li>
+        <li class="triangle-down"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+          <path d="M5.5 10L0 0h11"/>
+      </svg></li>
       </ul>
     </div>
 
