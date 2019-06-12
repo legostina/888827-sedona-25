@@ -173,7 +173,7 @@ img {
 
 .description-regular {
   margin: auto;
-  padding-top: 32px;
+  padding-top: 28px;
   padding-bottom: 50px;
   width: 489px;
   font-size: 14px;
@@ -200,7 +200,7 @@ img {
 
 .true-city {
   margin: auto;
-  margin-top: 46px;
+  margin-top: 48px;
   font-weight: bold;
   width: 151px;
   text-align: center;
@@ -214,7 +214,7 @@ img {
   margin: auto;
   font-size: 14px;
   width: 303px;
-  margin-bottom: 60px;
+  margin-bottom: 57px;
 }
 
 .attraction-square,
@@ -241,7 +241,7 @@ img {
 
 .index-list {
   font-size: 14px;
-  margin-top: 26px;
+  margin-top: 23px;
 }
 
 .photo {
@@ -282,19 +282,19 @@ img {
 
   position: absolute;
   top: 60px;
-  left: 162px;
+  left: 50%;
 
   width: 75px;
   height: 72px;
   transform: translatex(-50%);
-  background-size: cover;
+  background-size: 75px 72px;
 }
 
 .advantages-items li:first-child::before {
   background-image: url("../img/house.svg");
 } 
 
-.advantages-itemsli:nth-child(2)::before {
+.advantages-items li:nth-child(2)::before {
   background-image: url("../img/food.svg");
 } 
 
@@ -303,15 +303,15 @@ img {
 } 
 
 .bonus-house {
-  margin-top: 96px;
+  margin-top: 162px;
 }
 
 .bonus-food {
-  margin-top: 97px;
+  margin-top: 163px;
 }
 
 .bonus-souvenir {
-  margin-top: 96px;
+  margin-top: 162px;
 }
 
 .bonus-food,
@@ -324,37 +324,23 @@ img {
 
 }
 
-.house {
-  margin-top: 59px;
-}
-
-.food {
-  margin-top: 59px;
-}
-
-.souvenir {
-  margin-top: 55px;
-}
-
 .description-bonus.bonus-house,
 .description-bonus.bonus-food,
 .description-bonus.bonus-souvenir {
   margin: auto;
+  margin-top: 24px;
 }
 
 .description-bonus.bonus-house {
   width: 252px;
-  margin-top: 24px;
 }
 
 .description-bonus.bonus-food {
   width: 286px;
-  margin-top: 24px;
 }
 
 .description-bonus.bonus-souvenir {
   width: 273px;
-  margin-top: 23px;
 }
 
 .house,
