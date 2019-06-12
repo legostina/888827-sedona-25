@@ -10,13 +10,13 @@ body {
   text-transform: uppercase;
   height: 773px;
 
- /* background-image: url( "../img/sedona-hotels.jpg" );
+  background-image: url("../img/sedona-hotels.jpg");
   background-repeat: no-repeat;
-  background-position:  center 0;
+  background-position: center 0;
   background-repeat: no-repeat;
-  background-size:  1280px auto;
+  background-size: 1280px auto;
   opacity: 0.6;
-*/
+
 }
 
 .main-header-logo {
@@ -32,7 +32,9 @@ img {
   height: auto;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -271,7 +273,7 @@ img {
   padding-left: 0px;
   margin-bottom: 81px;
   justify-content: space-between;
- }
+}
 
 .advantages-items li {
   position: relative;
@@ -292,15 +294,15 @@ img {
 
 .advantages-items li:first-child::before {
   background-image: url("../img/house.svg");
-} 
+}
 
 .advantages-items li:nth-child(2)::before {
   background-image: url("../img/food.svg");
-} 
+}
 
 .advantages-items li:last-child::before {
   background-image: url("../img/souvenir.svg");
-} 
+}
 
 .bonus-house {
   margin-top: 162px;
@@ -825,7 +827,7 @@ li.people-style {
 
 .filter-option {
   margin-bottom: 27px;
-  
+
 }
 
 .filter-option label {
@@ -835,40 +837,36 @@ li.people-style {
   user-select: none;
 }
 
-.filter-input:hover + label,
-.filter-input:focus + label {
-  color:#ffffff;
+.filter-input:hover+label,
+.filter-input:focus+label {
+  color: #ffffff;
 }
 
-.filter-input:disabled + label {
+.filter-input:disabled+label {
   color: #6a6a6a;
 }
 
-.filter-input-checkbox + label::before {
+.filter-input-checkbox+label::before {
   content: "";
   position: absolute;
   left: -42px;
-  top: 0;
-  width: 21px;
-  height: 21px;
-
-  border: 2px solid #ffffff;
-  border-radius: 3px;
-}
-
-.filter-input-checkbox:checked + label::after {
-  content: "";
-
-  position: absolute;
-  top: 4px;
-  left: -38px;
+  top: 1px;
   width: 27px;
   height: 23px;
+
+  background-image: url("../img/checkbox-off.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.filter-input-checkbox:checked+label::before {
+  content: "";
+
   background-image: url("../img/checkbox-on.svg");
   color: #ffffff;
   background-repeat: no-repeat;
   background-position: 0 0;
- }
+}
 
 .filter-range {
   width: 318px;
@@ -885,9 +883,9 @@ li.people-style {
   line-height: 21px;
 }
 
-ul.infrastructure-list{
-margin-left: 40px;
-margin-top: 25px;
+ul.infrastructure-list {
+  margin-left: 40px;
+  margin-top: 25px;
 }
 
 ul.house-type {
@@ -1037,18 +1035,18 @@ ul.house-type {
   margin-left: 49px;
 }
 
-.byprice a{
+.byprice a {
   margin-left: 40px;
   color: #81b3d2;
 }
 
-.bytype a{
+.bytype a {
   margin-left: 33px;
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.byrating a{
+.byrating a {
   margin-left: 33px;
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
