@@ -45,9 +45,9 @@
         <p class="attraction-description">СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ</p>
       </section>
 
-      <section class="photo">
+      <div class="photo">
         <img src="img/feature-picture.jpg" width="800" height="256" alt="Красота Седоны">
-      </section>
+      </div>
     </div>
 
     <section class="advantages">
@@ -70,9 +70,9 @@
     </section>
 
     <div class="beautiful-canyon">
-      <section class="photo">
+      <div class="photo">
         <img src="img/canyon.jpg" width="800" height="256" alt="Вид на каньон">
-      </section>
+      </div>
 
       <section class="attraction-city">
         <h2 class="visually-hidden">Достопримечательности Седоны</h2>
@@ -222,15 +222,20 @@
 </html>
 
 <script>
-    var batton=document.querySelector(".button");
-    var popup=document.querySelector(".search-info");
-    button.addEventListener("click", function(evt){});
+    var button=document.querySelector(".button");
+    var popup=document.querySelector(".search-form");
+    var arrival=popup.querySelector(".date-arrival");
+    var form=popup.querySelector("form");
+    var dateDeparture=popup.querySelector(".date-departure");
+
+
+    button.addEventListener("click", function(evt){
     evt.preventDefault();
     popup.classlist.toggle("search-form-show");
-
-    var dateArrival=popup.querySelector(".date-arrival");
-    dateArrival.focus();
-    var form=popup.querySelector("form");
+    arrival.focus();
+    });
+    
+    
     form.addEventListener("submit", function(){});
-    var dateDeparture=popup.querySelector(".date-departure");
+    
   </script>

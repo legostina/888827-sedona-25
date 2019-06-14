@@ -10,13 +10,13 @@ body {
   text-transform: uppercase;
   height: 773px;
 
-  background-image: url("../img/sedona-hotels.jpg");
+  /*background-image: url("../img/sedona-hotels.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: 1280px auto;
   opacity: 0.6;
-
+*/
 }
 
 .main-header-logo {
@@ -826,7 +826,7 @@ li.people-style {
 }
 
 .filter-option {
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 
 }
 
@@ -849,7 +849,7 @@ li.people-style {
 .filter-input-checkbox+label::before {
   content: "";
   position: absolute;
-  left: -42px;
+  left: -40px;
   top: 1px;
   width: 27px;
   height: 23px;
@@ -886,11 +886,13 @@ li.people-style {
 ul.infrastructure-list {
   margin-left: 40px;
   margin-top: 25px;
+  font-size: 14px;
 }
 
 ul.house-type {
-  margin-top: 23px;
-  margin-left: 40px;
+  margin-top: 26px;
+  margin-left: 41px;
+  font-size: 14px;
 }
 
 .price {
