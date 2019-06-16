@@ -10,13 +10,13 @@ body {
   text-transform: uppercase;
   height: 773px;
 
-  /*background-image: url("../img/sedona-hotels.jpg");
+  background-image: url("../img/sedona-index.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: 1280px auto;
   opacity: 0.6;
-*/
+
 }
 
 .main-header-logo {
@@ -376,10 +376,13 @@ input[type="radio"].visually-hidden {
 
 .search-form {
   display: none;
-}
+ }
 
 .search-form-show {
-  display: flex;
+  display: block;
+  position: absolute;
+  left: 390px;
+  background-color: #ffffff;
 }
 
 .search-interest {
@@ -553,13 +556,13 @@ li.data-style-departure {
 
 li.people-style {
   display: flex;
-  padding-top: 30px;
-  padding-left: 53px;
+  padding-top: 28px;
+  padding-left: 54px;
   align-items: center;
 }
 
 .adults {
-  padding-right: 41px;
+  padding-right: 43px;
 }
 
 .children {
@@ -605,10 +608,11 @@ li.people-style {
 .minus {
   padding: 0;
   margin: 0;
+  font-weight: bold;
   line-height: 1px;
   width: 38px;
   height: 38px;
-  font-size: 12px;
+  font-size: 18px;
   color: #cacaca;
   background-color: #f2f2f2;
   border: none;
@@ -634,6 +638,7 @@ li.people-style {
   width: 38px;
   height: 38px;
   font-weight: bold;
+  font-size: 15px;
   text-align: center;
   color: #000000;
   background-color: #f2f2f2;
@@ -643,6 +648,8 @@ li.people-style {
 .plus {
   padding: 0;
   margin: 0;
+  font-weight: bold;
+  font-size: 25px;
   line-height: 1px;
   width: 38px;
   height: 38px;

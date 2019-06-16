@@ -217,25 +217,35 @@
     </p>
   </footer>
 
-</body>
-
-</html>
-
-<script>
+  <script>
     var button=document.querySelector(".button");
     var popup=document.querySelector(".search-form");
     var arrival=popup.querySelector(".date-arrival");
-    var form=popup.querySelector("form");
-    var dateDeparture=popup.querySelector(".date-departure");
+   
+    var departure=popup.querySelector(".date-departure");
+    var adultsIput = document.querySelector('#adults');
+    var childrenIput = document.querySelector('#children');
+
+    adultsIput.type = 'text';
+    childrenIput.type = 'text';
 
 
     button.addEventListener("click", function(evt){
     evt.preventDefault();
-    popup.classlist.toggle("search-form-show");
+    popup.classList.toggle("search-form-show");
     arrival.focus();
     });
+
     
-    
-    form.addEventListener("submit", function(){});
+    popup.addEventListener("submit", function(evt){
+    if (!arrival.value || !departure.value) {
+        evt.preventDefault();
+      }
+      console.log("Нужно заполнить дату заезда и выезда");
+    });
     
   </script>
+</body>
+
+</html>
+
