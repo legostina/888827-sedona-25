@@ -1,5 +1,6 @@
     var button = document.querySelector(".button");
     var popup = document.querySelector(".search-form");
+    var popupwrap=document.querySelector(".search-form-wrap");
     var arrival = popup.querySelector(".date-arrival");
 
     var departure = popup.querySelector(".date-departure");
@@ -11,7 +12,7 @@
 
     button.addEventListener("click", function (evt) {
       evt.preventDefault();
-      popup.classList.toggle("search-form-show");
+      popupwrap.classList.toggle("search-form-wrap-show");
       arrival.focus();
     });
 
@@ -22,4 +23,4 @@
       console.log("Нужно заполнить дату заезда и выезда");
     });
 
-    popup.classList.remove("search-form-show");
+    popupwrap.classList.remove("search-form-wrap-show");
