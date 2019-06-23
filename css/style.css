@@ -363,7 +363,7 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
   left: 50%;
   transform: translateX(-50%);
-  transition: 0,5s;
+  transition: 0.5s;
 }
 
 .search-form-wrap-show {
@@ -394,6 +394,8 @@ input[type="radio"].visually-hidden {
 .button {
   display: flex;
   margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   font-size: 21px;
@@ -492,7 +494,7 @@ li.data-style-departure {
 
 .date-arrival,
 .date-departure {
-  width: 333px;
+  width: 347px;
   height: 38px;
   font-size: 14px;
   font-weight: bold;
@@ -501,6 +503,8 @@ li.data-style-departure {
   padding-left: 13px;
   line-height: 26px;
   text-align: left;
+  padding-right: 35px;
+  box-sizing: border-box;
 }
 
 .date-arrival {
@@ -553,7 +557,7 @@ li.people-style {
 .search-button {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 16px;
   align-items: center;
   justify-content: center;
   margin-top: 53px;
@@ -565,7 +569,7 @@ li.people-style {
   letter-spacing: normal;
   text-align: center;
   min-width: 458px;
-  height: 58px;
+  min-height: 58px;
   background-color: #81b3d2;
   text-transform: uppercase;
   color: #ffffff;
